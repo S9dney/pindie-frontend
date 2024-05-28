@@ -10,7 +10,7 @@ import { endpoints } from "./api/config.js";
 export default function Home() {
   useEffect(() => {
     
-    getData("https://api-code-2.practicum-team.ru/games");
+    getData("https://scoundrelaleks.nomoredomainswork.ru/api");
   }, []);
 
   const popularGames = getGamesByCategory("popular");
